@@ -1,0 +1,42 @@
+.navigation {
+  transition: all 0.3s ease;
+  background-color: transparent !important;
+  padding: 1rem 0;
+}
+
+.navigation.scrolled {
+  background-color: rgba(15, 23, 42, 0.9) !important;
+  backdrop-filter: blur(10px);
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+}
+
+.navigation .brand {
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: var(--color-primary);
+  transition: color 0.3s ease;
+}
+
+.navigation .brand:hover {
+  color: var(--color-accent);
+}
+
+.navigation .nav-link-custom {
+  color: var(--color-text-muted) !important;
+  font-weight: 500;
+  font-size: 0.95rem;
+  margin: 0 0.5rem;
+  transition: color 0.3s ease;
+}
+
+.navigation .nav-link-custom:hover {
+  color: var(--color-text) !important;
+}
+
+.navbar-toggler {
+  border-color: var(--color-primary);
+}
+
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba(99, 102, 241, 1)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}

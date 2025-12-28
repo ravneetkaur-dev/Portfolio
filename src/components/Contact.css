@@ -1,0 +1,119 @@
+.contact-section {
+  padding: 5rem 1rem;
+  background-color: rgba(30, 41, 59, 0.3);
+}
+
+.contact-intro {
+  color: var(--color-text-muted);
+  font-size: 1.1rem;
+  line-height: 1.7;
+  max-width: 600px;
+  margin: 0 auto 3rem;
+}
+
+.contact-heading{
+    padding-bottom: 1rem;
+}
+
+.contact-form {
+  background-color: var(--color-surface);
+  padding-left: 2.5rem;
+  padding-right: 2.5rem;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  border-radius: 8px;
+  border: 1px solid var(--color-border);
+  margin-bottom: 3rem;
+}
+
+.contact-form label {
+  color: var(--color-text);
+  font-weight: 500;
+  margin-bottom: 0.5rem;
+}
+
+.form-input {
+  background-color: var(--color-background);
+  border: 1px solid var(--color-border);
+  color: var(--color-text);
+  padding: 0.75rem 1rem;
+  border-radius: 6px;
+  transition: all 0.3s ease;
+}
+
+.form-input:focus {
+  background-color: var(--color-background);
+  border-color: var(--color-primary);
+  color: var(--color-text);
+  box-shadow: 0 0 0 3px rgba(99, 102, 241, 0.1);
+}
+
+.form-input::placeholder {
+  color: var(--color-text-muted);
+  opacity: 0.6;
+}
+
+.contact-links {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.contact-link {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  padding: 1rem;
+  background-color: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-radius: 6px;
+  color: var(--color-text-muted);
+  transition: all 0.3s ease;
+}
+
+.contact-card{
+    background-color: var(--color-surface);
+    border: 1px solid var(--color-border);
+    color: var(--color-text);
+    border-radius: 8px;
+    transition: all 0.3s ease;
+    padding: 2rem 0.5rem
+}
+
+.open-work-card{
+    background-color: var(--color-primary);
+    border: 1px solid var(--color-border);
+    color: var(--color-text);
+    border-radius: 8px;
+    padding: 2rem 0.5rem;
+}
+
+.contact-link:hover {
+  border-color: var(--color-primary);
+  color: var(--color-primary);
+  transform: translateX(5px);
+}
+
+.footer {
+  margin-top: 4rem;
+  padding-top: 2rem;
+  border-top: 1px solid var(--color-border);
+}
+
+.footer-text {
+  color: var(--color-text-muted);
+  font-size: 0.9rem;
+  margin: 0;
+}
+
+@media (max-width: 768px) {
+  .contact-section {
+    padding: 3rem 1rem;
+  }
+
+  .contact-form {
+    padding: 1.5rem;
+  }
+}
