@@ -38,7 +38,7 @@ function Contact() {
   })
   .catch((error) => {
     console.error("EmailJS error:", error)
-    alert(error.text || "Email failed")
+    alert("Email failed")
   })
 }
 
